@@ -1,5 +1,5 @@
-import Header from "./components/Header"
-import Salescard from "./components/Salescard"
+import Header from "./components/Header";
+import Salescard from "./components/Salescard";
 
 function app() {
     return (
@@ -15,4 +15,4 @@ function app() {
         </>
     )
 }
-export default app
+export default app;
