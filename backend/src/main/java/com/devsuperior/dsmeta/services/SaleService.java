@@ -24,7 +24,7 @@ import com.devsuperior.dsmeta.repositories.SaleRepository;
 		LocalDate max = maxDate.equals("") ? today : LocalDate.parse(maxDate);
 		
 
-	return repository.findSales(min, max, pageable);	
+	return repository.findSales(min, max, pageable);
 		 
     }
 }
